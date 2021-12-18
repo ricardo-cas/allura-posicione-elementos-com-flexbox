@@ -13,7 +13,7 @@
 
 .rodapePrincipal-patrocinadores .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .rodapePrincipal-patrocinadores-list{
     display: flex;
@@ -28,4 +28,36 @@
 
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+}
+
+.conteudoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link{
+    width: 23%;
+    margin: 1%;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n) {
+    margin-right: 0;
+}
+
+.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+    margin-left: 0;
+}
+.rodapePrincipal-navMap-list {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.rodapePrincipal-patrocinadores{
+    background: #ccc;
+}
+.rodapePrincipal-patrocinadores-footer{
+    background-color: #324C64;;
 }
