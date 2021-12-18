@@ -13,7 +13,7 @@
 
 .rodapePrincipal-patrocinadores .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 .rodapePrincipal-patrocinadores-list{
     display: flex;
@@ -46,4 +46,18 @@
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1) {
     margin-left: 0;
+}
+.rodapePrincipal-navMap-list {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 250px;
+}
+
+.rodapePrincipal-patrocinadores{
+    background: #ccc;
+}
+.rodapePrincipal-patrocinadores-footer{
+    background-color: #324C64;;
 }
